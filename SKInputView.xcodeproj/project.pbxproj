@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0471509623725E6500344262 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471509523725E6500344262 /* AppDelegate.m */; };
+		0471509923725E6500344262 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471509823725E6500344262 /* ViewController.m */; };
+		0471509C23725E6500344262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0471509A23725E6500344262 /* Main.storyboard */; };
+		0471509E23725E6800344262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0471509D23725E6800344262 /* Assets.xcassets */; };
+		047150A123725E6800344262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0471509F23725E6800344262 /* LaunchScreen.storyboard */; };
+		047150A423725E6800344262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150A323725E6800344262 /* main.m */; };
+		047150AE23725E6800344262 /* SKInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150AD23725E6800344262 /* SKInputViewTests.m */; };
+		047150B923725E6800344262 /* SKInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150B823725E6800344262 /* SKInputViewUITests.m */; };
+		047150CD23725E8E00344262 /* SKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150C723725E8E00344262 /* SKTextView.m */; };
+		047150CE23725E8E00344262 /* SKInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150CB23725E8E00344262 /* SKInputView.m */; };
+		047150CF23725E8E00344262 /* SKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150CC23725E8E00344262 /* SKTextField.m */; };
+		04715113237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150FB237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		04715114237260F800344262 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04715104237260F800344262 /* ViewController+MASAdditions.m */; };
+		04715115237260F800344262 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04715108237260F800344262 /* MASCompositeConstraint.m */; };
+		04715116237260F800344262 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04715109237260F800344262 /* MASConstraintMaker.m */; };
+		04715117237260F800344262 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471510A237260F800344262 /* MASLayoutConstraint.m */; };
+		04715118237260F800344262 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471510B237260F800344262 /* NSArray+MASAdditions.m */; };
+		04715119237260F800344262 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471510C237260F800344262 /* View+MASAdditions.m */; };
+		0471511A237260F800344262 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471510F237260F800344262 /* MASConstraint.m */; };
+		0471511B237260F800344262 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04715111237260F800344262 /* MASViewConstraint.m */; };
+		0471511C237260F800344262 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04715112237260F800344262 /* MASViewAttribute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047150AA23725E6800344262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0471508923725E6500344262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0471509023725E6500344262;
+			remoteInfo = SKInputView;
+		};
+		047150B523725E6800344262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0471508923725E6500344262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0471509023725E6500344262;
+			remoteInfo = SKInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0471509123725E6500344262 /* SKInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0471509423725E6500344262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0471509523725E6500344262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0471509723725E6500344262 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0471509823725E6500344262 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0471509B23725E6500344262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0471509D23725E6800344262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047150A023725E6800344262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047150A223725E6800344262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047150A323725E6800344262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047150A923725E6800344262 /* SKInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047150AD23725E6800344262 /* SKInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKInputViewTests.m; sourceTree = "<group>"; };
+		047150AF23725E6800344262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047150B423725E6800344262 /* SKInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047150B823725E6800344262 /* SKInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKInputViewUITests.m; sourceTree = "<group>"; };
+		047150BA23725E6800344262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047150C723725E8E00344262 /* SKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextView.m; sourceTree = "<group>"; };
+		047150C823725E8E00344262 /* SKInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKInputView.h; sourceTree = "<group>"; };
+		047150C923725E8E00344262 /* SKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextField.h; sourceTree = "<group>"; };
+		047150CA23725E8E00344262 /* SKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextView.h; sourceTree = "<group>"; };
+		047150CB23725E8E00344262 /* SKInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKInputView.m; sourceTree = "<group>"; };
+		047150CC23725E8E00344262 /* SKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextField.m; sourceTree = "<group>"; };
+		047150FA237260F800344262 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		047150FB237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		047150FC237260F800344262 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		047150FD237260F800344262 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		047150FE237260F800344262 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		047150FF237260F800344262 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		04715100237260F800344262 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		04715101237260F800344262 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		04715102237260F800344262 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		04715103237260F800344262 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		04715104237260F800344262 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		04715105237260F800344262 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		04715106237260F800344262 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		04715107237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		04715108237260F800344262 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		04715109237260F800344262 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		0471510A237260F800344262 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		0471510B237260F800344262 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0471510C237260F800344262 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		0471510D237260F800344262 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0471510E237260F800344262 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		0471510F237260F800344262 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		04715110237260F800344262 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		04715111237260F800344262 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		04715112237260F800344262 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		0471511D2372626D00344262 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0471511E2372642F00344262 /* ConstantDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantDefinition.h; sourceTree = "<group>"; };
+		047151202372665B00344262 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		047151872372A65000344262 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0471508E23725E6500344262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047150A623725E6800344262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047150B123725E6800344262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0471508823725E6500344262 = {
+			isa = PBXGroup;
+			children = (
+				0471509323725E6500344262 /* SKInputView */,
+				047150AC23725E6800344262 /* SKInputViewTests */,
+				047150B723725E6800344262 /* SKInputViewUITests */,
+				0471509223725E6500344262 /* Products */,
+				0471511F2372665B00344262 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0471509223725E6500344262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0471509123725E6500344262 /* SKInputView.app */,
+				047150A923725E6800344262 /* SKInputViewTests.xctest */,
+				047150B423725E6800344262 /* SKInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0471509323725E6500344262 /* SKInputView */ = {
+			isa = PBXGroup;
+			children = (
+				0471511D2372626D00344262 /* PrefixHeader.pch */,
+				047151872372A65000344262 /* MacroDefinition.h */,
+				0471511E2372642F00344262 /* ConstantDefinition.h */,
+				047150F9237260F800344262 /* Masonry */,
+				047150C623725E8E00344262 /* SKInputView */,
+				0471509423725E6500344262 /* AppDelegate.h */,
+				0471509523725E6500344262 /* AppDelegate.m */,
+				0471509723725E6500344262 /* ViewController.h */,
+				0471509823725E6500344262 /* ViewController.m */,
+				0471509A23725E6500344262 /* Main.storyboard */,
+				0471509D23725E6800344262 /* Assets.xcassets */,
+				0471509F23725E6800344262 /* LaunchScreen.storyboard */,
+				047150A223725E6800344262 /* Info.plist */,
+				047150A323725E6800344262 /* main.m */,
+			);
+			path = SKInputView;
+			sourceTree = "<group>";
+		};
+		047150AC23725E6800344262 /* SKInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				047150AD23725E6800344262 /* SKInputViewTests.m */,
+				047150AF23725E6800344262 /* Info.plist */,
+			);
+			path = SKInputViewTests;
+			sourceTree = "<group>";
+		};
+		047150B723725E6800344262 /* SKInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047150B823725E6800344262 /* SKInputViewUITests.m */,
+				047150BA23725E6800344262 /* Info.plist */,
+			);
+			path = SKInputViewUITests;
+			sourceTree = "<group>";
+		};
+		047150C623725E8E00344262 /* SKInputView */ = {
+			isa = PBXGroup;
+			children = (
+				047150C823725E8E00344262 /* SKInputView.h */,
+				047150CB23725E8E00344262 /* SKInputView.m */,
+				047150C923725E8E00344262 /* SKTextField.h */,
+				047150CC23725E8E00344262 /* SKTextField.m */,
+				047150CA23725E8E00344262 /* SKTextView.h */,
+				047150C723725E8E00344262 /* SKTextView.m */,
+			);
+			path = SKInputView;
+			sourceTree = "<group>";
+		};
+		047150F9237260F800344262 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				047150FA237260F800344262 /* MASCompositeConstraint.h */,
+				04715108237260F800344262 /* MASCompositeConstraint.m */,
+				04715106237260F800344262 /* MASConstraint.h */,
+				0471510F237260F800344262 /* MASConstraint.m */,
+				047150FC237260F800344262 /* MASConstraint+Private.h */,
+				047150FF237260F800344262 /* MASConstraintMaker.h */,
+				04715109237260F800344262 /* MASConstraintMaker.m */,
+				047150FD237260F800344262 /* MASLayoutConstraint.h */,
+				0471510A237260F800344262 /* MASLayoutConstraint.m */,
+				0471510E237260F800344262 /* Masonry.h */,
+				04715102237260F800344262 /* MASUtilities.h */,
+				04715103237260F800344262 /* MASViewAttribute.h */,
+				04715112237260F800344262 /* MASViewAttribute.m */,
+				04715105237260F800344262 /* MASViewConstraint.h */,
+				04715111237260F800344262 /* MASViewConstraint.m */,
+				04715101237260F800344262 /* NSArray+MASAdditions.h */,
+				0471510B237260F800344262 /* NSArray+MASAdditions.m */,
+				047150FE237260F800344262 /* NSArray+MASShorthandAdditions.h */,
+				04715107237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				047150FB237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				04715100237260F800344262 /* View+MASAdditions.h */,
+				0471510C237260F800344262 /* View+MASAdditions.m */,
+				0471510D237260F800344262 /* View+MASShorthandAdditions.h */,
+				04715110237260F800344262 /* ViewController+MASAdditions.h */,
+				04715104237260F800344262 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		0471511F2372665B00344262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				047151202372665B00344262 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0471509023725E6500344262 /* SKInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047150BD23725E6800344262 /* Build configuration list for PBXNativeTarget "SKInputView" */;
+			buildPhases = (
+				0471508D23725E6500344262 /* Sources */,
+				0471508E23725E6500344262 /* Frameworks */,
+				0471508F23725E6500344262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKInputView;
+			productName = SKInputView;
+			productReference = 0471509123725E6500344262 /* SKInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047150A823725E6800344262 /* SKInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047150C023725E6800344262 /* Build configuration list for PBXNativeTarget "SKInputViewTests" */;
+			buildPhases = (
+				047150A523725E6800344262 /* Sources */,
+				047150A623725E6800344262 /* Frameworks */,
+				047150A723725E6800344262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047150AB23725E6800344262 /* PBXTargetDependency */,
+			);
+			name = SKInputViewTests;
+			productName = SKInputViewTests;
+			productReference = 047150A923725E6800344262 /* SKInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047150B323725E6800344262 /* SKInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047150C323725E6800344262 /* Build configuration list for PBXNativeTarget "SKInputViewUITests" */;
+			buildPhases = (
+				047150B023725E6800344262 /* Sources */,
+				047150B123725E6800344262 /* Frameworks */,
+				047150B223725E6800344262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047150B623725E6800344262 /* PBXTargetDependency */,
+			);
+			name = SKInputViewUITests;
+			productName = SKInputViewUITests;
+			productReference = 047150B423725E6800344262 /* SKInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0471508923725E6500344262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = KentSun;
+				TargetAttributes = {
+					0471509023725E6500344262 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					047150A823725E6800344262 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0471509023725E6500344262;
+					};
+					047150B323725E6800344262 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0471509023725E6500344262;
+					};
+				};
+			};
+			buildConfigurationList = 0471508C23725E6500344262 /* Build configuration list for PBXProject "SKInputView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0471508823725E6500344262;
+			productRefGroup = 0471509223725E6500344262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0471509023725E6500344262 /* SKInputView */,
+				047150A823725E6800344262 /* SKInputViewTests */,
+				047150B323725E6800344262 /* SKInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0471508F23725E6500344262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047150A123725E6800344262 /* LaunchScreen.storyboard in Resources */,
+				0471509E23725E6800344262 /* Assets.xcassets in Resources */,
+				0471509C23725E6500344262 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047150A723725E6800344262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047150B223725E6800344262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0471508D23725E6500344262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0471511B237260F800344262 /* MASViewConstraint.m in Sources */,
+				0471509923725E6500344262 /* ViewController.m in Sources */,
+				04715116237260F800344262 /* MASConstraintMaker.m in Sources */,
+				047150CD23725E8E00344262 /* SKTextView.m in Sources */,
+				04715114237260F800344262 /* ViewController+MASAdditions.m in Sources */,
+				04715113237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				04715115237260F800344262 /* MASCompositeConstraint.m in Sources */,
+				047150A423725E6800344262 /* main.m in Sources */,
+				04715117237260F800344262 /* MASLayoutConstraint.m in Sources */,
+				04715119237260F800344262 /* View+MASAdditions.m in Sources */,
+				04715118237260F800344262 /* NSArray+MASAdditions.m in Sources */,
+				047150CF23725E8E00344262 /* SKTextField.m in Sources */,
+				0471509623725E6500344262 /* AppDelegate.m in Sources */,
+				0471511C237260F800344262 /* MASViewAttribute.m in Sources */,
+				0471511A237260F800344262 /* MASConstraint.m in Sources */,
+				047150CE23725E8E00344262 /* SKInputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047150A523725E6800344262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047150AE23725E6800344262 /* SKInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047150B023725E6800344262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047150B923725E6800344262 /* SKInputViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047150AB23725E6800344262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0471509023725E6500344262 /* SKInputView */;
+			targetProxy = 047150AA23725E6800344262 /* PBXContainerItemProxy */;
+		};
+		047150B623725E6800344262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0471509023725E6500344262 /* SKInputView */;
+			targetProxy = 047150B523725E6800344262 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0471509A23725E6500344262 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0471509B23725E6500344262 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0471509F23725E6800344262 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047150A023725E6800344262 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047150BB23725E6800344262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		047150BC23725E6800344262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047150BE23725E6800344262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKInputView/PrefixHeader.pch";
+				INFOPLIST_FILE = SKInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047150BF23725E6800344262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKInputView/PrefixHeader.pch";
+				INFOPLIST_FILE = SKInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047150C123725E6800344262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				INFOPLIST_FILE = SKInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKInputView.app/SKInputView";
+			};
+			name = Debug;
+		};
+		047150C223725E6800344262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				INFOPLIST_FILE = SKInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKInputView.app/SKInputView";
+			};
+			name = Release;
+		};
+		047150C423725E6800344262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				INFOPLIST_FILE = SKInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKInputView;
+			};
+			name = Debug;
+		};
+		047150C523725E6800344262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				INFOPLIST_FILE = SKInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0471508C23725E6500344262 /* Build configuration list for PBXProject "SKInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047150BB23725E6800344262 /* Debug */,
+				047150BC23725E6800344262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047150BD23725E6800344262 /* Build configuration list for PBXNativeTarget "SKInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047150BE23725E6800344262 /* Debug */,
+				047150BF23725E6800344262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047150C023725E6800344262 /* Build configuration list for PBXNativeTarget "SKInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047150C123725E6800344262 /* Debug */,
+				047150C223725E6800344262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047150C323725E6800344262 /* Build configuration list for PBXNativeTarget "SKInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047150C423725E6800344262 /* Debug */,
+				047150C523725E6800344262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0471508923725E6500344262 /* Project object */;
+}
