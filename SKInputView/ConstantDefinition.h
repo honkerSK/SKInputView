@@ -97,12 +97,5 @@ CG_INLINE UIColor * COLOR0091FF() {
 }
 
 
-#pragma mark - ——————— 参数常量 ————————
-//活动规则textView 限制字数 100
-CG_INLINE NSInteger limitTextNum() {
-    return 100;
-}
-
-
 
 #endif /* ConstantDefinition_h */

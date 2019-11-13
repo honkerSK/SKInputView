@@ -15,7 +15,6 @@
 		047150A423725E6800344262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150A323725E6800344262 /* main.m */; };
 		047150AE23725E6800344262 /* SKInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150AD23725E6800344262 /* SKInputViewTests.m */; };
 		047150B923725E6800344262 /* SKInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150B823725E6800344262 /* SKInputViewUITests.m */; };
-		047150CD23725E8E00344262 /* SKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150C723725E8E00344262 /* SKTextView.m */; };
 		047150CE23725E8E00344262 /* SKInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150CB23725E8E00344262 /* SKInputView.m */; };
 		047150CF23725E8E00344262 /* SKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150CC23725E8E00344262 /* SKTextField.m */; };
 		04715113237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 047150FB237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.m */; };
@@ -64,10 +63,8 @@
 		047150B423725E6800344262 /* SKInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047150B823725E6800344262 /* SKInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKInputViewUITests.m; sourceTree = "<group>"; };
 		047150BA23725E6800344262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		047150C723725E8E00344262 /* SKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextView.m; sourceTree = "<group>"; };
 		047150C823725E8E00344262 /* SKInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKInputView.h; sourceTree = "<group>"; };
 		047150C923725E8E00344262 /* SKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextField.h; sourceTree = "<group>"; };
-		047150CA23725E8E00344262 /* SKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextView.h; sourceTree = "<group>"; };
 		047150CB23725E8E00344262 /* SKInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKInputView.m; sourceTree = "<group>"; };
 		047150CC23725E8E00344262 /* SKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextField.m; sourceTree = "<group>"; };
 		047150FA237260F800344262 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
@@ -193,8 +190,6 @@
 				047150CB23725E8E00344262 /* SKInputView.m */,
 				047150C923725E8E00344262 /* SKTextField.h */,
 				047150CC23725E8E00344262 /* SKTextField.m */,
-				047150CA23725E8E00344262 /* SKTextView.h */,
-				047150C723725E8E00344262 /* SKTextView.m */,
 			);
 			path = SKInputView;
 			sourceTree = "<group>";
@@ -372,7 +367,6 @@
 				0471511B237260F800344262 /* MASViewConstraint.m in Sources */,
 				0471509923725E6500344262 /* ViewController.m in Sources */,
 				04715116237260F800344262 /* MASConstraintMaker.m in Sources */,
-				047150CD23725E8E00344262 /* SKTextView.m in Sources */,
 				04715114237260F800344262 /* ViewController+MASAdditions.m in Sources */,
 				04715113237260F800344262 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				04715115237260F800344262 /* MASCompositeConstraint.m in Sources */,

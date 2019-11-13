@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "SKInputView.h"
-#import "SKTextView.h"
 
 @interface ViewController ()
 
@@ -41,22 +40,6 @@
     [btn2 addTarget:self action:@selector(inputTwoTextField:) forControlEvents:UIControlEventTouchUpInside];
     
     
-    //自定义textView
-    SKTextView *textView = [[SKTextView alloc] init];
-    [self.view addSubview:textView];
-    textView.frame = CGRectMake(16, CGRectGetMaxY(btn2.frame) + 50, nScreenWidth()-16*2, 120);
-    textView.limit = limitTextNum(); //限制字数 100
-    textView.placeholder = @"请输入内容";
-    textView.textFieldBlock = ^(NSString * _Nonnull text) {
-        NSLog(@"文字输出内容 : %@", text);
-    };
-    textView.textViewShouldBeginEditingBlock = ^(BOOL isEditing) {
-        NSLog(@"将要开始编辑");
-    };
-    textView.textViewDidEndEditingBlock = ^(BOOL isEditing) {
-        NSLog(@"已经结束编辑");
-    };
-    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -64,7 +47,7 @@
 }
 
 - (void)inputOneTextField:(UIButton *)sender{
-    SKInputView *skInputView = [[SKInputView alloc] initWithTitle:@"活动费用" placeholderText:@"元/人" maxLength:0 keyboardType:UIKeyboardTypeDecimalPad];
+    SKInputView *skInputView = [[SKInputView alloc] initWithTitle:@"人均费用" placeholderText:@"元/人" maxLength:0 keyboardType:UIKeyboardTypeDecimalPad];
     [skInputView show];
     
     skInputView.inputTextBlock = ^(NSString * _Nullable text, NSString * _Nullable textTwo) {
@@ -74,7 +57,7 @@
 }
 
 - (void)inputTwoTextField:(UIButton *)sender{
-    SKInputView *skInputView = [[SKInputView alloc] initWithTitle:@"适合年龄段" placeholderText:@"岁" maxLength:2 keyboardType:UIKeyboardTypeNumberPad inputViewNumType:SKInputViewNumTypeTwo];
+    SKInputView *skInputView = [[SKInputView alloc] initWithTitle:@"年龄段范围" placeholderText:@"岁" maxLength:2 keyboardType:UIKeyboardTypeNumberPad inputViewNumType:SKInputViewNumTypeTwo];
     [skInputView show];
     
     skInputView.inputTextBlock = ^(NSString * _Nullable text, NSString * _Nullable textTwo) {
