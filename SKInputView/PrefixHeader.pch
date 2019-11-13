@@ -10,7 +10,6 @@
 #define PrefixHeader_pch
 
 #import <UIKit/UIKit.h>
-#import <CoreGraphics/CoreGraphics.h>
 #import "MacroDefinition.h"
 #import "ConstantDefinition.h"
 
